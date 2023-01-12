@@ -51,7 +51,7 @@
     <table style="width: 1%;" border="2">
         <tbody>
             <tr>
-                <td>Consonnes</td>
+                <td></td>
                 <td>Voyelles</td>
             </tr>
             <tr>
