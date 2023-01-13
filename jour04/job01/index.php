@@ -10,6 +10,8 @@
 
 <body>
 
+    <!-- Method 'GET' = Un tableau associatif des valeurs passées au script courant via les paramètres d'URL (aussi connue sous le nom de "query string") -->
+
     <form action="" method="get">
 
         <input type="text" name="test">
@@ -20,16 +22,20 @@
 
     <?php
 
-    $conter = 0;
+    //$counter = La variable 
+    $counter = 0;
 
+    // foreach (pour chaque) = Pour chaque boucle $_GET ('method get'), La première forme passe en revue le tableau ($_GET),À chaque itération la valeur de l'élément courant est assignée à ($key) 
     foreach ($_GET as $key) {
-        //  if(si): Le contenu du formulaire est différent de vide (!= ""), et bien notre variable conter augmente ( acrémente ) de 
+        //  if(si): Le contenu du formulaire est différent de vide (!= ""), et bien notre variable 'counter' augmente ( acrémente ) de 1 
         if ($_GET["test"] != "") {
-            $a++;
+            // $counter++ = sert à augmenter (acrémenter) de 1 
+            $counter++;
         }
     }
 
-    echo "Le nombre d'argument GET envoyé est :" . $a;
+    // echo (appeler , afficher = la variable)
+    echo "Le nombre d'argument GET envoyé est :" . $counter;
 
     ?>
 
