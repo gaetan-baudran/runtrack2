@@ -27,8 +27,11 @@
 
     // foreach (pour chaque) = Pour chaque boucle $_GET ('method get'), La première forme passe en revue le tableau ($_GET),À chaque itération la valeur de l'élément courant est assignée à ($key) 
     foreach ($_GET as $key) {
+
         //  if(si): Le contenu du formulaire est différent de vide (!= ""), et bien notre variable 'counter' augmente ( acrémente ) de 1 
+
         if ($_GET["test"] != "") {
+
             // $counter++ = sert à augmenter (acrémenter) de 1 
             $counter++;
         }
