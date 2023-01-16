@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    
+}
+
+form {
+    display: flex;
+}
+
+input {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border-radius: 30%;
+  }
+
+
+select {
+    margin-bottom: 30px;
+    margin-top: 30x;
+    background-color: blueviolet;
+  }
+
